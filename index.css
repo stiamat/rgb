@@ -24,3 +24,21 @@ body {
 .h1, h1 {
     font-size: 2.5rem;
 }
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-gap: 10px;
+
+	padding: 10px;
+}
+  
+.grid-container > div {
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+  
+.item {
+	grid-area: 1 / 2 / 5 / 6;
+}
