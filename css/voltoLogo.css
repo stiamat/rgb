@@ -1,0 +1,91 @@
+body {
+	font-family: arial, sans-serif;
+	background: #222;
+   	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.text-light {
+	font-family: "Montserrat", sans-serif !important;
+    color: #f8f9fa !important;
+	text-shadow: 7px 10px 10px black;
+	/* animation: text 3s ease infinite; */
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+}
+
+.center{
+	text-align: center;
+	vertical-align: auto;
+}
+
+.animateText{
+	white-space: nowrap;
+	opacity: .4;
+	transform: rotate(45deg);
+	position: absolute;
+	animation: animateLogo 20s infinite cubic-bezier(0, 0, 1, 1);
+}
+.animateText2{
+	white-space: nowrap;
+	opacity: .4;
+	transform: rotate(45deg);
+	position: absolute;
+	animation: animateLogo2 20s infinite cubic-bezier(0, 0, 1, 1);
+}
+
+@keyframes animateLogo {
+  0% { 
+	  top: -20vh;
+	  left: -20vh;
+  }
+  50% { 
+		top: 100vh;
+		left: 100vh;
+ 	}
+  100% { 
+		top: -20vh;
+		left: -20vh;
+ 	}
+}
+
+@keyframes animateLogo2 {
+  0% { 
+	  top: -20vh;
+	  left: -50vh;
+  }
+  50% { 
+		top: 100vh;
+		left: 70vh;
+ 	}
+  100% { 
+		top: -20vh;
+		left: -50vh;
+ 	}
+}
+
+/* @keyframes gradient {
+	0% {
+		background-position: 0% 25%;
+		transform: rotate(0deg);
+	}
+	25% {
+		background-position: 25% 50%;
+		transform: rotate(120deg);
+	}
+	50% {
+		background-position: 50% 0%;
+		transform: rotate(60deg);
+	}
+	75% {
+		background-position: 75% 100%;
+		transform: rotate(270deg);
+	}
+	100% {
+		background-position: 100% 0%;
+		transform: rotate(360deg);
+	}
+} */

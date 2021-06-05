@@ -70,7 +70,7 @@ body {
 	margin-left: -1500px;
 	margin-top: -3000px;
 	transform-origin: 50% 48%;
-	border-radius: 33%;
+	border-radius: 45%;
 	/* animation: wave 10s infinite alternate; */
 	z-index: -1
 }
