@@ -67,7 +67,7 @@ body {
 	animation: gradient 25s alternate infinite;
 	width: 3500px;
 	height: 3500px;
-	margin-left: -1500px;
+	margin-left: -3000px;
 	margin-top: -3000px;
 	transform-origin: 50% 48%;
 	border-radius: 45%;
