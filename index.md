@@ -1,2 +1,4 @@
-teste RGB
+---
+permalink: /index.html
+---
 
